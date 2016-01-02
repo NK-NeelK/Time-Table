@@ -1,0 +1,38 @@
+﻿body {
+    text-align: center;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-user-select:none;
+    background-color:#EDEDED;
+}
+
+.title {
+    color:white;
+    background:linear-gradient(to right,#7237BF,#A371E3,#7237BF);
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:.5px;
+    margin-bottom:.5px;
+    padding:.7em .7em .7em .7em;
+}
+
+.batch {
+    color:white;
+    background:linear-gradient(to right,#7237BF,#A371E3,#7237BF);
+    font-family:'Century Gothic';
+    font-size:20px;
+    padding:1em 2em 1em 2em;
+    margin:.5em .5em .5em .5em;
+    border:none;
+    border-radius:5px 5px;
+
+}
+
+.title {
+    font-family:'Century Gothic';
+}
+
+
+.myName{
+    font-size: 25px;
+}
