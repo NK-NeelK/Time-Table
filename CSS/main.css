@@ -14,13 +14,26 @@
     margin-top:.5px;
     margin-bottom:.5px;
     padding:.7em .7em .7em .7em;
+     font-family:'Century Gothic';
 }
+
+
+.appName {
+    font-size:40px;
+    font-family:'Century Gothic';
+}
+
+.myName{
+    font-size: 30px;
+    font-family:'Century Gothic';
+}
+
 
 .batch {
     color:white;
     background:linear-gradient(to right,#7237BF,#A371E3,#7237BF);
     font-family:'Century Gothic';
-    font-size:20px;
+    font-size:40px;
     padding:1em 2em 1em 2em;
     margin:.5em .5em .5em .5em;
     border:none;
@@ -28,11 +41,16 @@
 
 }
 
-.title {
-    font-family:'Century Gothic';
+.elements {
+    color:white;
+    
+    padding:1em 2em 2em 1em;
+    margin:.5em .5em .5em .5em;
+    border-radius:5px 5px;
 }
 
-
-.myName{
-    font-size: 25px;
+#mon, #tue {
+    text-align:center;
+    width:100px;
+    background-color:black;
 }
