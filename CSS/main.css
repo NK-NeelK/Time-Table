@@ -4,6 +4,7 @@
     overflow-y: scroll;
     -webkit-user-select:none;
     background-color:#EDEDED;
+    font-family:'Century Gothic';
 }
 
 .title {
@@ -14,25 +15,21 @@
     margin-top:.5px;
     margin-bottom:.5px;
     padding:.7em .7em .7em .7em;
-     font-family:'Century Gothic';
 }
 
 
 .appName {
     font-size:40px;
-    font-family:'Century Gothic';
 }
 
 .myName{
     font-size: 30px;
-    font-family:'Century Gothic';
 }
 
 
 .batch {
     color:white;
     background:linear-gradient(to right,#7237BF,#A371E3,#7237BF);
-    font-family:'Century Gothic';
     font-size:40px;
     padding:1em 2em 1em 2em;
     margin:.5em .5em .5em .5em;
@@ -41,15 +38,39 @@
 
 }
 
-.elements {
-    color:white;
-    
-    padding:1em 2em 2em 1em;
-    margin:.5em .5em .5em .5em;
-    border-radius:5px 5px;
+.day {
+    text-align:center;
 }
 
-#mon, #tue {
-    text-align:center;
-    background-color:black;
+.periods {
+    text-align:left;
+    padding-left:3em;
+    padding-right:3em;
+}
+
+.elements {
+    color:white;
+    font-size:15px;
+    padding:1em 1em 1em 1em;
+    margin:1em 2em 1em 2em;
+    border:none;
+    border-radius:.5em .5em;
+}
+
+
+.day {
+    font-size:25px;
+}
+
+
+#mon {
+    background-color:palevioletred;
+}
+
+#tue {
+    background-color:cadetblue;
+}
+
+#wed {
+    background-color:dodgerblue;
 }
