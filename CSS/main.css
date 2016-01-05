@@ -1,7 +1,7 @@
 ﻿body {
     text-align: center;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    overflow-x: scroll,hidden;
+    overflow-y: scroll,hidden;
     -webkit-user-select:none;
     background-color:#EDEDED;
     font-family:'Century Gothic';
@@ -10,9 +10,9 @@
 .title {
     color:white;
     background:linear-gradient(to right,#7237BF,#A371E3,#7237BF);
-    margin-left:0px;
-    margin-right:0px;
-    margin-top:.5px;
+    margin-left:-1em;
+    margin-right:-1em;
+    margin-top:-1em;
     margin-bottom:.5px;
     padding:.7em .7em .7em .7em;
 }
@@ -46,6 +46,7 @@
     text-align:left;
     padding-left:3em;
     padding-right:3em;
+    font-size:20px;
 }
 
 .elements {
@@ -59,7 +60,7 @@
 
 
 .day {
-    font-size:25px;
+    font-size:30px;
 }
 
 
@@ -73,4 +74,16 @@
 
 #wed {
     background-color:dodgerblue;
+}
+
+#thu {
+    background-color:deeppink;
+}
+
+#fri {
+    background-color:lightslategrey;
+}
+
+#sat {
+    background-color:indigo;
 }
